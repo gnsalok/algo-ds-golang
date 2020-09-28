@@ -1,2 +1,2 @@
-# leetcode-golang
-Daily LeeCode Coding Interview Problem using Golang.
+# Daily LeetCode Problem 
+Daily LeeCode Coding Interview Problem using Java and Golang.
