@@ -7,6 +7,7 @@ package main
 
 import "fmt"
 
+// Find all pair (a,b) --> a+b = c+d
 func findPairs(arr []int) {
 	if arr == nil {
 		fmt.Printf("Empty!")
