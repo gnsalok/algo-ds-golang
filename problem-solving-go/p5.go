@@ -8,7 +8,8 @@ import "fmt"
 
 func main() {
 
-	arr := []int{1, 3, 4, 5, 7, 8, 10} // 2, 6
+	arr := []int{4, 5, 7, 8, 10, 20} // 2, 6
+	one := 1
 
 	n := len(arr)
 
@@ -16,7 +17,7 @@ func main() {
 
 	for i := 1; i < n; i++ {
 		if (arr[i] - arr[i-1]) != 1 {
-			val := arr[i] - arr[0]
+			val := arr[i] - one
 			missing = append(missing, val)
 		}
 	}
