@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//return bool if word is breakable
 func wordBreak(s string, wordDict []string) bool {
 	dict := make(map[string]bool)
 	for _, v := range wordDict {
