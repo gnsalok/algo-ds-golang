@@ -6,7 +6,4 @@ import (
 
 func main() {
 
-	for i := 0; i < 5; i++ {
-		fmt.Print(i)
-	}
 }
