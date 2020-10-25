@@ -1,0 +1,7 @@
+Goal : First try using Golang, if not then move to python solution.
+
+This directory contains the codes for the problem which you unable to solve using Golang. 
+
+
+Structure : Topic_problem_name_.py
+
